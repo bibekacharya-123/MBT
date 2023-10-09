@@ -14,11 +14,11 @@ type RootStackParamList = {
   
 };
 
-type HomeScreenProps = {
+type OtherScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'Home'>;
 };
 
-const LoginRegister = ({ navigation }: HomeScreenProps) => {
+const LoginRegister = ({ navigation }: OtherScreenProps) => {
   return (
     <SafeAreaView style={styles.all}>
       <ScrollView>
