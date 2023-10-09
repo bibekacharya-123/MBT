@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, SafeAreaView, StatusBar, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import BottomTabNavigator from './Components/Homepagedesign/BottomTab'; // Import your BottomTabNavigator
+import BottomTabNavigator from './Components/Homepagedesign/BottomTab';
 import Login from './Components/Others/Login';
 import Register from './Components/Others/Register';
 import Lang from './Components/Others/Lang';
