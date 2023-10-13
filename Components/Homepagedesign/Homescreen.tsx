@@ -32,14 +32,14 @@ const Homescreen: React.FC<HomeScreenProps> = ({ navigation }) => {
               <Text style={styles.Club}>Club MRR</Text>
                 <View style={styles.iconss}>
                   <TouchableOpacity onPress={() => navigation.navigate('Notification')}>
-                    <View style={{ marginRight: 7 }} >
-                      <Octicons name="bell-fill" size={30} color="#ffff" />
+                    <View style={{ marginRight:20 }} >
+                      <Octicons name="bell-fill" size={25} color="#ffff" />
                     </View>
                   </TouchableOpacity>
 
                   <TouchableOpacity onPress={() => navigation.navigate('profile')}>
                     <View>
-                      <MaterialCommunityIcons name='account-circle' size={35} color='#ffff' />
+                      <MaterialCommunityIcons name='account-circle' size={30} color='#ffff' />
                     </View>
                   </TouchableOpacity>
                 </View>

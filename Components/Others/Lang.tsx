@@ -20,11 +20,11 @@ export default class Lang extends Component {
           <View style={styles.container}>
             <View style={styles.cont}>
               <View style={styles.engg}>
-                <Text style={{fontSize:20, fontFamily:'roboto',}}>   English</Text>
+                <Text style={{fontSize:20, fontFamily:'roboto',color:'#690c23'}}>   English</Text>
                 <CustomSwitch />
               </View>
               <View style={styles.engg}>
-                <Text style={{fontSize:20,fontFamily:'roboto'}}>   Nepali</Text>
+                <Text style={{fontSize:20,fontFamily:'roboto',color: '#690c23'}}>   Nepali</Text>
                 <CustomSwitch/>
               </View>
 

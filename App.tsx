@@ -9,8 +9,7 @@ import Lang from './Components/Others/Lang';
 import Ourteams from './Components/Ourteams/Ourteams';
 import Contact from './Components/Others/Contact';
 import Downloads from './Components/Others/Downloads';
-import Profile from
- './Components/Homepagedesign/Profile';
+import Profile from'./Components/Homepagedesign/Profile';
 import Notification from './Components/Homepagedesign/Notification';
 
 

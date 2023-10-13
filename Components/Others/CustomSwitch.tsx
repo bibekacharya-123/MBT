@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, TouchableWithoutFeedback } from 'react-native';
 
 const CustomSwitch = () => {
   const [isEnabled, setIsEnabled] = useState(false);
+  
 
   const toggleSwitch = () => {
     setIsEnabled(!isEnabled);
@@ -35,14 +36,14 @@ const styles = StyleSheet.create({
   label: {
     flex: 1,
     textAlign: 'center',
-    color: 'white',
+    color: '#ffff',
     fontWeight: 'bold',
   },
   switch: {
     width: 30,
     height: 30,
-    borderRadius: 15,
-    backgroundColor: '#eeee1',
+    borderRadius: 30,
+    backgroundColor: '#eeeeee',
     position: 'absolute',
   },
   switchOn: {
