@@ -15,48 +15,51 @@ export default class Register extends Component {
             <TouchableOpacity>
             <MAt name='arrow-left-bold-box' size={30} color="#ffff" />
             </TouchableOpacity>
-                <Text style={styles.headerText}>  Register</Text>
+                
             </View>
             <View style={styles.container}>
+              <View style={{alignItems:'center'}}>
+                <Text style={{color:'#690c23',fontSize:20,fontFamily:'roboto'}}>
+                  Membership Application Form
+                </Text>
+                <Text style={{color:'grey',fontSize:18,fontFamily:'roboto'}}>
+                  please complete all questions to apply for 
+                </Text>
+                <Text style={{color:'#grey',fontSize:18,fontFamily:'roboto'}}>
+                  Membership.
+                </Text>
+                
+              </View>
                
                 <View>
-                    <Text style={{color:'#690c23'}}>    Name</Text>
+                   
                     <TextInput 
                     style={styles.textinput}
-                     placeholder='Enter Your Name'
+                     placeholder='Full Name*'
                      autoCapitalize='none'
                      autoCorrect={false}/>
                 </View>
                 <View>
-                    <Text style={{color:'#690c23'}}>    Number</Text>
+                    
                     <TextInput 
                     style={styles.textinput}
-                     placeholder='Number' />
+                     placeholder='Input Email Address*' />
                 </View>
                 <View>
-                    <Text style={{color:'#690c23'}}>    Password</Text>
+                    
                     <TextInput 
                     style={styles.textinput}
-                     placeholder='Password'
-                     secureTextEntry={true}
+                     placeholder='Number*' 
+                     
                      autoCapitalize='none'
                      autoCorrect={false} />
                 </View>
-                <View>
-                    <Text style={{color:'#690c23'}}>    Confirm Password</Text>
-                    <TextInput 
-                    style={styles.textinput}
-                     placeholder='Password'
-                     secureTextEntry={true} 
-                     autoCapitalize='none'
-                     autoCorrect={false}/>
-                </View>
-                
+               
                 <TouchableOpacity style={styles.log}>
-                    <Text style={{color:"#ffff",fontSize: 23,fontFamily: 'roboto'}}>Sign up</Text>
+                    <Text style={{color:"#ffff",fontSize: 23,fontFamily: 'roboto'}}>Submit</Text>
                 </TouchableOpacity>
                 <View style={styles.loginwith}>
-                    <Text style={{color:'#690c23', fontSize:15, fontFamily: 'roboto'}}>Already Had a Account . . .?</Text>
+                  
                     <TouchableOpacity>
                     <Text style={{color:'#black', fontSize:20, fontFamily: 'roboto'}}>Login</Text>
                     </TouchableOpacity>
@@ -111,6 +114,7 @@ export default class Register extends Component {
         marginRight:20,
         paddingleft: 10,
         paddingRight: 10,
+        marginLeft:10
         
     },
     loginwith:{

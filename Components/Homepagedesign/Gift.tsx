@@ -5,7 +5,7 @@ import Feather from 'react-native-vector-icons/Feather'
 const Gift = () => {
   return (
     <View style={styles.overdesign}>
-      <TouchableOpacity>
+      {/*<TouchableOpacity>
         
       <View style={styles.pointbox}>
         <View style={styles.gift}>
@@ -65,7 +65,7 @@ const Gift = () => {
         </View>
 
       </View>
-      </TouchableOpacity>
+      </TouchableOpacity>*/}
     </View>
 
 

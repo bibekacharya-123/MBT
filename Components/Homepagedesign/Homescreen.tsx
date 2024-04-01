@@ -29,7 +29,8 @@ const Homescreen: React.FC<HomeScreenProps> = ({ navigation }) => {
             <View>
 
               <View style={styles.Headd}>
-              <Text style={styles.Club}>Club MRR</Text>
+              <Text style={styles.Club}>
+मेरो धरती</Text>
                 <View style={styles.iconss}>
                   <TouchableOpacity onPress={() => navigation.navigate('Notification')}>
                     <View style={{ marginRight:20 }} >
@@ -71,7 +72,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#690c23"
   },
   Club: {
-    fontSize: 28,
+    fontSize: 35,
     fontWeight: "bold",
     fontFamily: "Roboto",
     color: "#FFFFFF",

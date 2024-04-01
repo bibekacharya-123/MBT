@@ -18,7 +18,9 @@ export default function Contact() {
 
                     <View style={styles.container}>
                         <View style={styles.card1}>
-                            <Text style={styles.club}>Club MRR</Text>
+                            <Text style={styles.club}>
+मेरो धरती
+</Text>
                             <Text style={{ color: 'white', fontSize: 16 }}>Reach Our Customer Service.</Text>
                         </View>
                         <View style={styles.buttons}>

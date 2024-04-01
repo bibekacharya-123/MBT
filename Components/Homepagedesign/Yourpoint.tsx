@@ -5,11 +5,11 @@ const Yourpoint = () => {
   return (
     <View style={styles.yp}>
     <Text style={styles.txt}>
-      Your Points
+      
     </Text>
   
  <TouchableOpacity>
-  <Text style={styles.txt}>View All</Text>
+  <Text style={styles.txt}></Text>
  </TouchableOpacity>
   </View>
   )

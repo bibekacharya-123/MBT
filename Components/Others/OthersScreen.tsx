@@ -14,11 +14,11 @@ type RootStackParamList = {
   
 };
 
-type OtherScreenProps = {
+type HomeScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'Home'>;
 };
 
-const LoginRegister = ({ navigation }: OtherScreenProps) => {
+const LoginRegister = ({ navigation }: HomeScreenProps) => {
   return (
     <SafeAreaView style={styles.all}>
       <ScrollView>
@@ -30,7 +30,9 @@ const LoginRegister = ({ navigation }: OtherScreenProps) => {
 
           <View style={styles.container}>
             <View style={styles.card1}>
-              <Text style={styles.club}>Club MRR</Text>
+              <Text style={styles.club}>
+मेरो धरती
+</Text>
               <Text style={{ color: '#FFFFFF' }}>To continue Log in with your RSP account.</Text>
               <View style={styles.buttons}>
                 <TouchableOpacity style={styles.button1} onPress={() => navigation.navigate('Login')}>

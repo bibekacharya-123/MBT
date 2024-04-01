@@ -9,34 +9,91 @@ export default class becomeamember extends Component {
        
 
           <View style={styles.card1}>
+         <ImageBackground source={require('../Ourteams/Oimage/8.jpg')} style={styles.Imagee} >
             
            <View style={{justifyContent:'flex-start',alignContent:'flex-start'}}>
-           <Text style={styles.club}>Become a member</Text>
+           <Text style={styles.club}>पशुपालन</Text>
            </View>
-            <Text style={{ color: '#FFFFFF',fontSize:30 }}>Membership Application Form</Text>
+            <Text style={{ color: '#FFFFFF',fontSize:30 }}>मासु उत्पादन, डेरी पदार्थ, अण्डा, माछा</Text>
             <View style={styles.buttons}>
               <TouchableOpacity >
               <View style={styles.btn}>
-                <Text style={styles.text}>Join us</Text>
+                <Text style={styles.text}>Read More</Text>
+                </View>
+              </TouchableOpacity>
+              
+
+            </View>
+            </ImageBackground>
+          </View>
+          <View style={styles.card1}>
+          <ImageBackground source={require('../Ourteams/Oimage/10.jpg')} style={styles.Imagee} >
+            
+            <View style={{justifyContent:'flex-start',alignContent:'flex-start'}}>
+            <Text style={styles.club}>कृषिभूमि</Text>
+            </View>
+             <Text style={{ color: '#FFFFFF',fontSize:30 }}>जमिनको अवस्थिति, मोटोको प्रकार, जमिन लेनदेन कानुन</Text>
+             <View style={styles.buttons}>
+               <TouchableOpacity >
+               <View style={styles.btn}>
+                 <Text style={styles.text}>Read More</Text>
+                 </View>
+               </TouchableOpacity>
+ 
+             </View>
+             </ImageBackground>
+           </View>
+           <View style={styles.card1}>
+           <ImageBackground source={require('../Ourteams/Oimage/4.jpg')} style={styles.Imagee} >
+            
+           <View style={{justifyContent:'flex-start',alignContent:'flex-start'}}>
+           <Text style={styles.club}>Ecommerce</Text>
+           </View>
+            <Text style={{ color: '#FFFFFF',fontSize:30 }}>स्थानीय उत्पादन किन्न र बेच्न, प्रविधि औजार, कच्चा पदार्थ खरिद गर्न</Text>
+            <View style={styles.buttons}>
+              <TouchableOpacity >
+              <View style={styles.btn}>
+                <Text style={styles.text}>Read More</Text>
                 </View>
               </TouchableOpacity>
 
             </View>
+            </ImageBackground>
           </View>
+          <View style={styles.card1}>
+          <ImageBackground source={require('../Ourteams/Oimage/9.jpg')} style={styles.Imagee} >
+            
+            <View style={{justifyContent:'flex-start',alignContent:'flex-start'}}>
+            <Text style={styles.club}>श्रमशक्ति</Text>
+            </View>
+             <Text style={{ color: '#FFFFFF',fontSize:30 }}>कृषि सहयोगी, कृषि तथा पशु प्राविधिक, विशेषज्ञ, अपरेटर, सुपरभाईजर</Text>
+             <View style={styles.buttons}>
+               <TouchableOpacity >
+               <View style={styles.btn}>
+                 <Text style={styles.text}>Read More</Text>
+                 </View>
+               </TouchableOpacity>
+ 
+             </View>
+             </ImageBackground>
+           </View>
+            
           
           <View style={styles.card1}>
+          <ImageBackground source={require('../Ourteams/Oimage/12.jpg')} style={styles.Imagee} >
            <View style={{justifyContent:'flex-start',alignContent:'flex-start'}}>
-           <Text style={styles.club}>Become a member</Text>
+           <Text style={styles.club}>प्रविधि</Text>
            </View>
-            <Text style={{ color: '#FFFFFF',fontSize:30 }}>Membership Application Form</Text>
+            <Text style={{ color: '#FFFFFF',fontSize:30 }}>आधुनिक कृषि औजार, पावर ट्रिलर, Bio-Pesticides, Bio-Fertilizers, सिँचाई प्रविधि, हाईड्रोपोनिक्स</Text>
             <View style={styles.buttons}>
               <TouchableOpacity >
               <View style={styles.btn}>
-                <Text style={styles.text}>Join us</Text>
+                <Text style={styles.text}>Read More</Text>
                 </View>
               </TouchableOpacity>
 
             </View>
+            </ImageBackground>
           </View>
           
 
@@ -48,6 +105,7 @@ export default class becomeamember extends Component {
 }
 
 const styles = StyleSheet.create({
+  
  
   
   gee: {
@@ -64,7 +122,7 @@ const styles = StyleSheet.create({
   },
 
   card1: {
-    backgroundColor: '#690c23',
+    backgroundColor: 'sky',
     
     borderRadius: 10,
     padding: 16,
@@ -113,6 +171,11 @@ const styles = StyleSheet.create({
     marginLeft: 245,
   
   },
+  Imagee: {
+    flex: 1,
+    height: 170,
+    width: 345,
+    borderRadius: 5},
   backimg:{
 
   }
