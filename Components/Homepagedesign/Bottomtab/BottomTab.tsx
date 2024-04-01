@@ -1,11 +1,11 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
-import Homescreen from '../Homepagedesign/Homescreen';
-import NoticeScreen from '../Notice/NoticeScreen';
-import BecomeMemberScreen from '../Becomeamember/BecomeMemberScreen';
-import ProgramScreen from '../Programs/ProgramScreen';
-import OthersScreen from '../Others/OthersScreen';
+import Homescreen from '../Homescreen';
+import NoticeScreen from '../../Notice/NoticeScreen';
+import BecomeMemberScreen from '../../Becomeamember/BecomeMemberScreen';
+import ProgramScreen from '../../Programs/ProgramScreen';
+import OthersScreen from '../../Others/OthersScreen';
 import Ionicc from 'react-native-vector-icons/Ionicons';
 import Frontasome from 'react-native-vector-icons/FontAwesome';
 

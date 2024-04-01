@@ -5,7 +5,7 @@ import Octicons from 'react-native-vector-icons/Octicons'
 import Yourpoint from './Yourpoint'
 
 import Gift from './Gift'
-import Becomeamember from './BecomeMember'
+import Becomeamember from './Drawer/BecomeMember'
 import { StackNavigationProp } from '@react-navigation/stack';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 
